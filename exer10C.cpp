@@ -9,26 +9,26 @@ int main(){
     int x;
     setlocale (LC_ALL, "");
     
-	printf ("Digite um número: ");
-    scanf ("%d", &x);
-    printf ("\n");
+	printf("Digite um nÃºmero: ");
+    scanf("%d", &x);
+    printf("\n");
     
     li = 1;
     k = x - 1;
     for (i = 1; i <= x; i++){
          
-         for (j = 1; j <= k; j++){
+         for(j = 1; j <= k; j++){
          	 printf (" ");
          } 
 		 k--;  	
-         for (j = 1; j <= li; j++){         	
+         for(j = 1; j <= li; j++){         	
              printf ("*");
          } 
     	printf ("\n");
     	li = li + 2;        
     }
     k = x - 1;
-    for (tronco = 1; tronco <= 3; tronco++){
+    for(tronco = 1; tronco <= 3; tronco++){
     	for (j = 1; j < k; j++){
     		printf (" ");
     	}
