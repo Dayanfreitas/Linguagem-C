@@ -6,21 +6,21 @@
 
 int main (){
     
-	int i;
+    int i;
     int posicao;
     int tamanhoFrase;
     char frase[50];
     setlocale (LC_ALL, "");
     
-	printf("Digite uma frase: ");
+    printf("Digite uma frase: ");
     gets(frase);
     
-	tamanhoFrase = strlen(frase);
+    tamanhoFrase = strlen(frase);
 
     printf("\n");
     for(i = 0, posicao = 0; i <= tamanhoFrase; i++, posicao++){
         if( frase[posicao] == ' '){
-			posicao++; 
+		posicao++; 
         }
 	frase[i] = frase[posicao];    
     }
