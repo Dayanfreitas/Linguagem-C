@@ -23,8 +23,8 @@ int main(){
         for(i = x1; i <= x2; i++){
     	    soma = x1 + soma;
             x1++;
-    }
-       printf("Soma: %d\n", soma);
+        }
+        printf("Soma: %d\n", soma);
     }
     else {
          printf("Os números não são válidos\n");
