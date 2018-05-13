@@ -19,11 +19,10 @@ int main(){
     scanf("%d", &x2);
     printf("\n");
     if(x2 > x1){
-    soma = 0;
-       
-    for(i = x1; i <= x2; i++){
-    	soma = x1 + soma;
-        x1++;
+        soma = 0;
+        for(i = x1; i <= x2; i++){
+    	    soma = x1 + soma;
+            x1++;
     }
        printf("Soma: %d\n", soma);
     }
