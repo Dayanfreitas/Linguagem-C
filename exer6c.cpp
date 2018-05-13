@@ -11,20 +11,20 @@ int main(){
     int soma;
     setlocale (LC_ALL, "");
     
-	printf("Digite o primeiro número(deve ser menor que o segundo): ");
+    printf("Digite o primeiro número(deve ser menor que o segundo): ");
     scanf("%d", &x1);
     printf("\n");
     
-	printf("Digite o segundo número: ");
+    printf("Digite o segundo número: ");
     scanf("%d", &x2);
     printf("\n");
     if(x2 > x1){
-       soma = 0;
+    soma = 0;
        
-       for(i = x1; i <= x2; i++){
-           soma = x1 + soma;
-           x1++;
-       }
+    for(i = x1; i <= x2; i++){
+    	soma = x1 + soma;
+        x1++;
+    }
        printf("Soma: %d\n", soma);
     }
     else {
@@ -32,7 +32,7 @@ int main(){
     }     
     
     printf("\n");
-	system("pause");
+    system("pause");
     return 0;
 }
 
